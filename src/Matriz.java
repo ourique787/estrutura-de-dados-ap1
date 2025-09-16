@@ -59,7 +59,7 @@ public class Matriz {
         for (int i = 0; i < numeroLinhas; i++) {
             for (int j = 0; j < numeroColunas; j++) {
                 System.out.print(matriz[i][j]);
-                if (j < numeroColunas - 1) System.out.print(" ");
+                if (j < numeroColunas - 1) System.out.print("  |  ");
             }
             System.out.println();
         }
